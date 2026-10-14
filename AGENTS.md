@@ -9,12 +9,24 @@ duplicate it.
 Use the documentation relevant to the task:
 
 - Architecture: `docs/architecture.md`
+- Product requirements: `docs/requirements/lastenheft-v1.0.md`
 - Conventions: `docs/conventions.md`
 - Testing and validation: `docs/testing.md`
 - AI-assisted development: `docs/ai-usage.md`
 - Architecture decisions: `docs/decisions/`
 
 Treat those documents as authoritative for their respective concerns.
+
+The product requirements document defines the intended product scope
+and acceptance criteria. Always check its approval status before
+using it as an implementation baseline.
+
+Draft requirements may be analyzed and reviewed, but must not be
+treated as approved authorization for implementation.
+
+Do not independently approve requirements, change the approved scope,
+or weaken security and quality gates. Escalate material conflicts or
+missing approvals to the Product Owner.
 
 ## Working principles
 
