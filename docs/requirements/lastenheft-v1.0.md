@@ -211,15 +211,15 @@ Diese Reihenfolge ist eine Planungsempfehlung, keine vom PO bestätigte Release-
 
 | ID | Offener Punkt | Priorität | Status |
 |---|---|---|---|
-| O-01 | Verbindliche MVP-Muss-Liste aus Kapitel 9, inklusive Reihenfolge der Ausbaustufen | Hoch | Offen |
-| O-02 | Freigabematrix für Push, PR, Netzwerk, externe Dienste, Dateizugriffe und kritische Befehle | Hoch | Offen |
-| O-03 | Technisch durchsetzbare Sandbox-/Berechtigungsmechanismen der eingesetzten CLI-Versionen | Hoch | Offen / Machbarkeit |
-| O-04 | Unterstützte Betriebssysteme, CLI-Versionen und Mindestvoraussetzungen | Hoch | Offen |
-| O-05 | Exakte Auftragszustände, sichere Haltepunkte, Retry-/Idempotenz- und Abbruchregeln | Hoch | Offen |
-| O-06 | Standardlimits für Laufzeit, Versuche, Ressourcen und Eskalationsschwellen | Hoch | Offen |
-| O-07 | Vorrang von globalen, projektbezogenen und auftragsbezogenen Richtlinien | Hoch | Offen |
-| O-08 | Secrets, Datenaufbewahrung, Datenschutz, Audit-Retention und Zugriffsschutz | Hoch | Offen |
-| O-09 | Git-Voraussetzung des MVP und Behandlung von Projekten ohne Git | Hoch | Offen |
+| O-01 | Verbindliche MVP-Muss-Liste aus Kapitel 9, inklusive Reihenfolge der Ausbaustufen | Hoch | Entschieden (PO-bestätigt) |
+| O-02 | Freigabematrix für Push, PR, Netzwerk, externe Dienste, Dateizugriffe und kritische Befehle | Hoch | Entschieden (PO-bestätigt) |
+| O-03 | Technisch durchsetzbare Sandbox-/Berechtigungsmechanismen der eingesetzten CLI-Versionen | Hoch | Entschieden (PO-bestätigt); Machbarkeit offen |
+| O-04 | Unterstützte Betriebssysteme, CLI-Versionen und Mindestvoraussetzungen | Hoch | Entschieden (PO-bestätigt) |
+| O-05 | Exakte Auftragszustände, sichere Haltepunkte, Retry-/Idempotenz- und Abbruchregeln | Hoch | Entschieden (PO-bestätigt) |
+| O-06 | Standardlimits für Laufzeit, Versuche, Ressourcen und Eskalationsschwellen | Hoch | Entschieden (PO-bestätigt) |
+| O-07 | Vorrang von globalen, projektbezogenen und auftragsbezogenen Richtlinien | Hoch | Entschieden (PO-bestätigt) |
+| O-08 | Secrets, Datenaufbewahrung, Datenschutz, Audit-Retention und Zugriffsschutz | Hoch | Entschieden (PO-bestätigt) |
+| O-09 | Git-Voraussetzung des MVP und Behandlung von Projekten ohne Git | Hoch | Entschieden (PO-bestätigt) |
 | O-10 | Umfang der optionalen GitHub-Synchronisierung, Konfliktverhalten | Mittel | Offen |
 | O-11 | Benachrichtigungskanäle, Fristen und Zustellgarantien | Mittel | Offen |
 | O-12 | Quantitative Leistungs-, Verfügbarkeits- und Kosten-Zielwerte | Mittel | Offen |
@@ -228,6 +228,8 @@ Diese Reihenfolge ist eine Planungsempfehlung, keine vom PO bestätigte Release-
 | O-15 | Kriterien für „Fortschritt“, Reviewzyklus-Grenzen und Modellwechsel | Hoch | Offen |
 | O-16 | Umgang mit Integrationskonflikten, Wiederherstellung und Zielbranch-Schutz | Hoch | Offen |
 | O-17 | Konkrete Auswahl des realen Pilotprojekts und seiner Aufgabe | Mittel | Offen |
+
+Die Entscheidungen zu O-01 bis O-09 sind in `entscheidungen-o01-o09.md` dokumentiert und vom Product Owner bestätigt. Für O-03 ist die Regel festgelegt; die technische Machbarkeit ist durch einen Test an Claude Code und Codex CLI noch zu verifizieren.
 
 **Hinweis zu älteren Unterlagen:** Eine frühere Fassung nannte „maximal drei reguläre Reviewzyklen“. Die neu bestätigte Entscheidung F-023 fordert fortschrittsabhängige Eskalation und konfigurierbare harte Limits. Die Zahl **drei** ist deshalb hier nicht als neue verbindliche Produktgrenze übernommen; O-15 ist zu klären.
 
@@ -265,6 +267,7 @@ Diese Reihenfolge ist eine Planungsempfehlung, keine vom PO bestätigte Release-
 | Version | Datum | Änderung | Freigabe |
 |---|---|---|---|
 | 1.0-Entwurf | 14.10.2026 | Zusammenführung des vorhandenen Entwurfs und der nachfolgenden bestätigten Interviewentscheidungen bis Q-002/P-001; MVP-Abgrenzung, Szenarien und offene Fragen überarbeitet | Ausstehend |
+| 1.0-Entwurf, Ergänzung | 25.10.2026 | Entscheidungen O-01 bis O-09 übernommen (`entscheidungen-o01-o09.md`), Status in Kapitel 11 aktualisiert | PO-bestätigt, Baseline ausstehend |
 
 ---
 
